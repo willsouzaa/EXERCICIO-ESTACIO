@@ -1,0 +1,83 @@
+body{
+    background-color: #f09c9c;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header, main, footer {
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+main img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.receitas{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: auto;
+    flex-wrap: wrap;
+}
+.receita {
+    width: 25%;
+    height: 400px;
+    margin: 5px;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+}
+.receita img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.receita h2 {
+    font-size: 18px;
+}
+.receita p {
+    font-size: 14px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.naav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.listnaav {
+    float: left;
+}
+.listnaav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: n;
+}
